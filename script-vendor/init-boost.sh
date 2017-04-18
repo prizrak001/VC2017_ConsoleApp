@@ -58,7 +58,7 @@ mkdir "$TMP_DIR" || {
     echo "${CURRENT_SCRIPT}. Boost archive filepath: ${BOOST_ARCHIVE_FILEPATH}" >&2
     
     [[ -f "$BOOST_ARCHIVE_FILEPATH" ]] || {
-        echo "${CURRENT_SCRIPT}. Error 4. File '$BOOST_ARCHIVE_FILENAME' doen't exist" >&2
+        echo "${CURRENT_SCRIPT}. Error 4. File '$BOOST_ARCHIVE_FILEPATH' doen't exist" >&2
         exit 1
     }       
     
